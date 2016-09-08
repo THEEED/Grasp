@@ -1,0 +1,278 @@
+/*1 -------------------*/
+#choose {
+    border-radius: 3px 3px 0 0;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: left;
+    background-color:#00897B;
+    margin: 0;
+    color: white;
+    padding: 10px;
+    font-weight: 800;
+    width: 200px;
+    text-align: center;
+    
+}
+.ngroup {
+    width: 70px;
+    padding: 10px;
+    background-color: #009688;
+    text-align: center;
+    color: white;
+    border-radius: 0px;
+    margin-right:  -4px;
+    display: inline-block;  
+}
+#linen {
+    background-color: #E0F2F1;
+    border-radius: 0 3px 3px 0;
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+/*2 -------------------*/
+#choose2 {
+    border-radius: 3px 3px 0 0;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: left;
+    background-color:#FBC02D;
+    margin: 0;
+    color: white;
+    padding: 10px;
+    font-weight: 800;
+    width: 200px;
+    text-align: center;
+    
+}
+.ngroup2 {
+    width: 70px;
+    padding: 10px;
+    background-color: #FDD835;
+    text-align: center;
+    color: white;
+    border-radius: 0px;
+    margin-right:  -4px;
+    display: inline-block;  
+}
+#linen2 {
+    background-color: #FFFDE7;
+    border-radius: 0 3px 3px 0;
+    margin-bottom: 30px;
+    
+}
+                                /*номра групп*/
+
+
+/*3 -------------------*/
+#choose3 {
+    border-radius: 3px 3px 0 0;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: left;
+    background-color:#FBC02D;
+    margin: 0;
+    color: white;
+    padding: 10px;
+    font-weight: 800;
+    width: 200px;
+    text-align: center;
+    
+}
+.ngroup3 {
+    width: 70px;
+    padding: 10px;
+    background-color: #FDD835;
+    text-align: center;
+    color: white;
+    border-radius: 0px;
+    margin-right:  -4px;
+    display: inline-block;  
+}
+#linen3 {
+    background-color: #FBE9E7;
+    border-radius: 0 3px 3px 0;
+    margin-bottom: 30px;
+    
+}
+
+
+
+/*4 -------------------*/
+#choose4 {
+    border-radius: 3px 3px 0 0;
+    font-weight: 200;
+    font-size: 20px;
+    text-align: left;
+    background-color:#D32F2F;
+    margin: 0;
+    color: white;
+    padding: 10px;
+    font-weight: 800;
+    width: 200px;
+    text-align: center;
+    
+}
+.ngroup4 {
+    width: 70px;
+    padding: 10px;
+    background-color: #E53935;
+    text-align: center;
+    color: white;
+    border-radius: 0px;
+    margin-right:  -4px;
+    display: inline-block;  
+}
+#linen4 {
+    background-color: #FFEBEE;
+    border-radius: 0 3px 3px 0;
+    margin-bottom: 30px;
+    
+}
+
+
+
+
+
+
+/* Базовый контейнер табов */
+.tabs {
+  max-width: 800px;
+  width: 80%;
+  min-width: 500px;
+  padding: 0px;
+  margin: auto;
+}
+/* стили секций с содержанием */
+section {
+
+  display: none;
+  padding: 10px;
+  background: #fff;
+  border: 0px solid #ddd;
+  background-color: white;
+  height: 700px;
+}
+.tabs input {
+  display: none;
+}
+/* стили вкладок (табов) */
+.tabs label {
+
+  display: inline-block;
+  margin: 0px;
+  padding: 10px 7%;
+  font-weight: 600;
+  text-align: center;
+  color: #aaa;
+  background: white;
+  border-radius: 0px 0px 0 0;
+  width: 11.1%;
+  margin: 0px -5px 0px -0px
+}
+
+/* изменения стиля заголовков вкладок при наведении */
+.tabs label:hover {
+  color: #888;
+  cursor: pointer;
+}
+/* стили для активной вкладки */
+.tabs input:checked + label {
+  transition-timing-function: ease-in;
+  color: #555;
+  border: 0px solid #ddd;
+  border-bottom: 3px solid #BBDEFB;
+  background: #fff;
+  background-color: white;
+  width: 11.0%;
+}
+/* активация секций с помощью переключателя :checked */
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4 {
+  display: block;
+}
+
+
+/*шапка*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F8FD;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#kurs {
+    padding: 0px;
+    margin: auto;
+    background-color:#F1F8FD;
+    height: 100% ;
+    min-width: 500px;
+    max-width: 800px;
+    padding-top: 0px;
+    height: 100%;
+    overflow: auto;
+    
+    
+}
+h1 {
+    vertical-align:top;
+    display: inline-block;
+    margin: 21px 0px 0px 15px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;   
+}
+#logo {
+    margin-left: 15px;
+    padding: 10px;
+    text-align: left;
+    width: 50px;
+}
+
+#head {
+    height: 70px;
+    background-color:#1976D2;height: 70px;
+}
+
+#inhead {
+    height: 70px;
+    max-width: 800px;
+    width: 80%;
+    min-width: 500px;
+    margin: auto;
+    background-color:#1565C0;
+    
+}
+
+#htext {
+    margin-left: 4px;
+    
+    
+}
+@media (max-width:345px){
+   #htext{
+       display:none;
+   }
+}
+
+@media (max-width:600px){
+    #inhead{
+        width: 100%;
+        min-width:100%;
+    } 
+    
+    
+/* расписание */
+@media (max-width:600px){
+.tabs{
+    width: 100%;
+    min-width:100%;
+}
